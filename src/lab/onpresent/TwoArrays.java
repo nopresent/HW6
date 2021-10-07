@@ -18,13 +18,13 @@ public class TwoArrays {
         arrayList2.add(10);
         arrayList2.add(1);
 
-        System.out.println("ArrayList1: " + arrayList1.toString());
+        System.out.println("ArrayList1: " + arrayList1);
 
         arrayList1.retainAll(arrayList2);
 
-        System.out.println("ArrayList2: " + arrayList2.toString());
+        System.out.println("ArrayList2: " + arrayList2);
         if (arrayList1.size() > 0) {
-            System.out.println("Array's have a " + arrayList1.size() + " similar elements: " + arrayList1.toString());
+            System.out.println("Array's have a " + arrayList1.size() + " similar elements: " + arrayList1);
         } else {
             System.out.println("Array's do not have a similar elements.");
         }

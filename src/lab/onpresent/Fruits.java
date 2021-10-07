@@ -14,7 +14,7 @@ public class Fruits {
         arrayListFruits.add("Mango");
 
         System.out.println("***");
-        System.out.println("Full ArrayList of Fruits: " + arrayListFruits.toString());
+        System.out.println("Full ArrayList of Fruits: " + arrayListFruits);
 
         boolean replaceState = false;
         for (int i = 0; i < arrayListFruits.size(); i++) {
@@ -25,7 +25,7 @@ public class Fruits {
         }
 
         if (replaceState == true) {
-            System.out.println("ArrayList with replace string: " + arrayListFruits.toString());
+            System.out.println("ArrayList with replace string: " + arrayListFruits);
         } else {
             System.out.println("Orange is not in the array");
         }

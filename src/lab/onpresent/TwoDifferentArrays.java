@@ -28,13 +28,13 @@ public class TwoDifferentArrays {
             a2.add(String.valueOf(arrayList2.get(i)));
         }
 
-        System.out.println("ArrayList1: " + a1.toString());
+        System.out.println("ArrayList1: " + a1);
 
         a1.retainAll(a2);
 
-        System.out.println("ArrayList2: " + a2.toString());
+        System.out.println("ArrayList2: " + a2);
         if (a1.size() > 0) {
-            System.out.println("Array's have a " + a1.size() + " similar elements: " + a1.toString());
+            System.out.println("Array's have a " + a1.size() + " similar elements: " + a1);
         } else {
             System.out.println("Array's do not have a similar elements.");
         }

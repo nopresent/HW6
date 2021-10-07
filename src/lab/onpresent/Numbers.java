@@ -17,7 +17,7 @@ public class Numbers {
         arrayList.add(22);
 
         System.out.println("***");
-        System.out.println("Full ArrayList of Numbers: " + arrayList.toString());
+        System.out.println("Full ArrayList of Numbers: " + arrayList);
 
         Iterator<Number> arrayListIterator = arrayList.iterator();
         while (arrayListIterator.hasNext()) {
@@ -27,7 +27,7 @@ public class Numbers {
             }
         }
 
-        System.out.println("ArrayList without numbers divisible by 3: " + arrayList.toString());
+        System.out.println("ArrayList without numbers divisible by 3: " + arrayList);
         System.out.println("***");
 
     }
